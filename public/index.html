@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="toggle-chat">Open Chat</button>
+    <div class="chat-container" id="chat-container">
+        <div class="chat-window" id="chat-window"></div>
+        <form id="chat-form">
+            <input type="text" id="message" placeholder="Message" required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <form id="login-form">
+                <label for="username">Enter your username:</label>
+                <input type="text" id="username" name="username" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
